@@ -10,7 +10,7 @@ def abb(audio):
     engine.setProperty('volume',0.9) 
     engine.runAndWait()
 def weatherr():
-        owm = pyowm.OWM('e0e91777a91c0eeea3106862157ad40c')
+        owm = pyowm.OWM('enter your own weather token id')
         print('Listening.....')
         r=sr.Recognizer()
         with sr.Microphone() as source:
